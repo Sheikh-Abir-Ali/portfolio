@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.portfolio-item {
+    background-color: #fff;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    padding: 20px;
+    transform: rotateY(30deg);
+    transition: transform 0.3s;
+    margin: 0 20px;
+}
+
+.portfolio-item:hover {
+    transform: rotateY(0deg);
+}
+
+.item-content {
+    transform: rotateY(-30deg);
+}
+
+h2 {
+    font-size: 20px;
+    margin: 0;
+}
+
+p {
+    font-size: 14px;
+    margin: 10px 0;
+}
